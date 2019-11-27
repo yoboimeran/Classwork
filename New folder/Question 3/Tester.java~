@@ -1,0 +1,8 @@
+public class Tester{
+  public static void main(String[] args){
+    Employee p1 = new Employee("jack", 500.0, 2005, "12345");
+    Employee p2 = new Employee("jack2", 600.0, 2006, "12345");
+    System.out.println(p1.equals(p2));
+  
+  }
+}

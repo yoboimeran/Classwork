@@ -1,0 +1,5 @@
+public class Cat extends Animal{
+  public String makeNoise(){
+    return super.name + "says mow";
+  }
+}
